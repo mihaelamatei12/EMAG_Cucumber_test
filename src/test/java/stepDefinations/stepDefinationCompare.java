@@ -1,5 +1,6 @@
 package stepDefinations;
 
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -53,5 +54,9 @@ public class stepDefinationCompare {
         WebElement errorMessage = driver.findElement(By.cssSelector("body > div.ns-wrap-top-right > div > div > div"));
         Assert.assertNotNull(errorMessage);
         Assert.assertTrue(errorMessage.isDisplayed());
+    }
+    @After
+    public void quitPage() {
+        driver.quit();
     }
 }

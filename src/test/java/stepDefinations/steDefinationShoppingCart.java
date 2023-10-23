@@ -1,5 +1,6 @@
 package stepDefinations;
 
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -43,5 +44,9 @@ public class steDefinationShoppingCart {
     public void the_shop_list_is_not_empty() {
         List<WebElement> productsList = driver.findElements(By.cssSelector("div.cart-widget.cart-line"));
         Assert.assertFalse(productsList.isEmpty());
+    }
+    @After
+    public void quitPage() {
+        driver.quit();
     }
 }

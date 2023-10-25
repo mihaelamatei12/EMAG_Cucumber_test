@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class stepDefinationCompare {
+public class StepDefinationCompare {
     private final WebDriver driver = new ChromeDriver();
     @Given("User navigates to the website")
     public void user_navigates_to_the_website() {

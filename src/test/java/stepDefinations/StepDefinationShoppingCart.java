@@ -13,7 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.List;
 
-public class steDefinationShoppingCart {
+public class StepDefinationShoppingCart {
     private final WebDriver driver = new ChromeDriver();
     @Given("User is on main page")
     public void user_is_on_main_page() throws InterruptedException{

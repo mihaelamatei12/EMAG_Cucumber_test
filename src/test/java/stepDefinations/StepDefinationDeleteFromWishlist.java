@@ -12,7 +12,7 @@ import org.junit.Assert;
 
 import java.util.List;
 
-public class stepDefinationDeleteFromWishlist {
+public class StepDefinationDeleteFromWishlist {
     private final WebDriver driver = new ChromeDriver();
     @Given("User is o main page, selects a product to be wishlisted")
     public void user_is_o_main_page_selects_a_product_to_be_wishlisted() throws InterruptedException{

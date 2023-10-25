@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class stepDefinationBuyDevice {
+public class StepDefinationBuyDevice {
     private final WebDriver driver = new ChromeDriver();
     @Given("User opens main page")
     public void user_opens_main_page() {

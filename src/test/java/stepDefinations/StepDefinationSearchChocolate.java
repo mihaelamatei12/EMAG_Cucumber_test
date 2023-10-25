@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class stepDefination {
+public class StepDefinationSearchChocolate {
 
     private final WebDriver driver = new ChromeDriver();
 

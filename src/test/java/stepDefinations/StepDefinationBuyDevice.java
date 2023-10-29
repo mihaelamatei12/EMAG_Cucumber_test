@@ -20,7 +20,7 @@ public class StepDefinationBuyDevice {
     public void user_opens_main_page() {
         driver.get("https://www.emag.ro/");
     }
-    @When("User searches for item {string}")
+    @When("User searches for device {string}")
     public void user_searches_for_item(String item) throws InterruptedException{
         WebElement searchTab = driver.findElement(By.cssSelector("#searchboxTrigger"));
         Assert.assertNotNull(searchTab);
